@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+function Outter(firstname) 
+{
+	var myName="Hi this is my name: ";
+
+	// body...
+
+function inner(lastname)
+{
+return myName +firstname+ " " +lastname;
+}
+ return inner;
+};
+
+var fullName =Outter("Koty");
+fullName("Nukani");
+
+</script>
+
+</body>
+</html>
